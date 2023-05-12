@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <!-- <img src="/logo.svg" alt="Logo Kenzie"> -->
+      <img src="https://svgshare.com/i/svD.svg" alt="Logo Kenzie">
+      <!-- <div>
+        <a href="/" aria-current="page">Instruções</a>
+        <a href="/template.html">HTML</a>
+      </div> -->
+      <div class="finishTask">
+        <a href="https://canvas.kenzie.com.br/courses/65/assignments/6690?module_item_id=17524" target="_blank">Finalizar entrega 
+          <svg width="56" height="16" viewBox="0 0 56 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M55.2765 8.42196C55.667 8.03143 55.667 7.39827 55.2765 7.00774L48.9125 0.643781C48.522 0.253257 47.8888 0.253257 47.4983 0.643781C47.1078 1.03431 47.1078 1.66747 47.4983 2.05799L53.1551 7.71485L47.4983 13.3717C47.1078 13.7622 47.1078 14.3954 47.4983 14.7859C47.8888 15.1764 48.522 15.1764 48.9125 14.7859L55.2765 8.42196ZM0.388794 8.71484L54.5694 8.71485L54.5694 6.71485L0.388794 6.71484L0.388794 8.71484Z" fill="white"></path></svg>
+        </a>
+      </div>
+    </nav>
+    <main>
+        <h1>Instruções</h1>
+        <p>
+          Você deverá desenvolver suas soluções no arquivo
+          <strong>script.js</strong>. Durante as partes de Array, Loop e Objeto,
+          você poderá observar o resultado das suas soluções via console.
+          Ao chegar na parte de DOM, você poderá consultar o container de teste, localizado logo abaixo das instruções, para verificar se as alterações feitas tiveram o
+          efeito esperado.
+        </p>
+        <section>
+          <h2>Passo a passo:</h2>
+          
+          <h3>Array</h3>
+          <ol>
+            <li>
+              Crie um array de números 5 dezenas quaisquer ex: 55, 12, 30, 81,92
+            </li>
+            <li>Mostre no console o primeiro elemento</li>
+            <li>Mostre no console o último elemento (dinâmicamente)</li>
+          </ol>
+  
+          <h3>Loop</h3>
+          <ol start="4">
+            <li>Mostre dinamicamente no console todos os itens do array.</li>
+          </ol>
+  
+          <h3>Objeto</h3>
+          <ol start="5">
+            <li>
+              Crie um objeto
+              <code>casa</code> com as seguintes propriedades:
+              <ul>
+                <li>tipo -> uma string com valor 'Casa térrea'</li>
+                <li>numero -> um numero com valor 125</li>
+                <li>
+                  moradores -> um array de duas posições, sendo a primeira uma
+                  string ' Fernanda ', e a segunda uma outra string 'José'
+                </li>
+              </ul>
+            </li>
+            <li>Mostre no console o valor da propriedade <code>numero</code> do objeto criado</li>
+            <li>Mostre no console apenas o primeiro nome da propriedade "moradores".</li>
+          </ol>
+  
+          <h3>DOM</h3>
+          <p>
+            Observe a estrutura do arquivo <strong>template.html</strong> para
+            desenvolver o que é pedido. Você <strong>não</strong> deve alterar o
+            arquivo html diretamente, mas sim utilizando DOM no arquivo
+            <strong>script.js</strong>
+            .
+          </p>
+          <ol start="8">
+            <li>Selecione o elemento cuja classe é <code>tech-list</code></li>
+            <li>Crie um novo elemento <code>li</code>, utilizando DOM.</li>
+            <li>
+              Modifique o texto do elemento criado para
+              <strong>'Javascript'</strong>
+            </li>
+            <li>
+              Adicione o elemento ao fim da lista cuja classe é
+              <code>tech-list</code>
+            </li>
+          </ol>
+
+          <h4>*O elemento criado no tópico de DOM será apresentado no container abaixo:</h4>
+
+          <!-- TESTE SEU CÓDIGO AQUI -->
+
+          <div class="testeDOM">
+            <h1 id="titulo-principal">Tecnologias</h1>
+            <section id="secao-familia">
+              <h2 class="sub-titulo">Front-end</h2>
+              <p>
+              Tecnologias front-end desempenham um papel crucial no desenvolvimento de aplicativos e sites modernos, permitindo que os usuários interajam com interfaces intuitivas e envolventes. Essas tecnologias são responsáveis por toda a parte visual e interativa de uma aplicação, envolvendo HTML (Hypertext Markup Language), CSS (Cascading Style Sheets) e JavaScript. Vamos explorar cada uma dessas tecnologias e entender como elas contribuem para a criação de experiências digitais de alta qualidade.
+              </p>
+            </section>
+            <ul class="tech-list">
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+        </section>
+
+        <h2>Para finalizar</h2>
+        <ul start="12">
+          <li>Dê um click no botão <strong>"Finalizar Entrega"</strong> no canto superior direito da página atual.</li>
+          <li>Selecione o botão <strong>"Iniciar tarefa"</strong>.</li>
+          <li>Copie todo o código desenvolvido no arquivo <strong>script.js</strong> e cole na caixa de texto.</li>
+          <li>De um click no botão <strong>"Enviar Tarefa"</strong>.</li>
+        </ul>
+    </main>
+  </body>
+</html>
